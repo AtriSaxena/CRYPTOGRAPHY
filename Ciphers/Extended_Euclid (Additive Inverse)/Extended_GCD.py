@@ -14,9 +14,9 @@ def Extended_euclid(m,b):
         A1,A2,A3=B1,B2,B3
         B1,B2,B3=T1,T2,T3
 
-#b,m=map(int,input("Enter 'B' & 'M' ").split())
-#res=Extended_euclid(m, b)
-#if res==0:
-#    print("NO INVERSE")
-#else:
-#    print("Inverse: {}".format(res)) 
+b,m=map(int,input("Enter 'B' & 'M' ").split())
+res=Extended_euclid(m, b)
+if res==0:
+    print("NO INVERSE")
+else:
+    print("Inverse: {}".format(res)) 
